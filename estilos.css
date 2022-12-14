@@ -1,0 +1,121 @@
+html,body{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/01.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position-x: 111%;
+    background-color: #a84912;
+}
+header{
+    background-color: #1b1b1d;
+    padding: 1.5%;
+}
+header img{
+    height: 40px;
+
+}
+
+.containernav{
+      display: flex;
+    flex-wrap: nowrap;
+}
+
+nav{
+    margin-left: 80% ;
+}
+
+article{
+    color: #faebd7;
+     font-family: Arial;
+     
+}
+h1{
+    font-family: Helvetica;
+    text-transform: uppercase;
+    border-bottom: groove whitesmoke;
+    text-shadow: #1b1b1d 2px 2px 2px;
+}
+
+.titulo{
+    font-size: 180%;
+    margin-left: 10%;
+    margin-right: 65%;
+    margin-top: 2%;
+    margin-bottom:0 ;
+}
+
+.texto{
+   text-align: justify;
+   font-size: 90%;
+   margin-left: 12%;
+   margin-right: 60%;
+   text-shadow: #1b1b1d 2px 2px 2px;
+}
+ul{
+    font-size: 95%;
+    margin-left: 14%;
+    margin-right: 62%;
+    list-style-type:square
+}
+.lista{
+    text-shadow: #1b1b1d 2px 2px 2px;
+}
+.botoes{
+    margin-left: 10%;
+    margin-right: 58%;
+    margin-top: 3%;
+    text-align: center;
+   
+}
+.botao1{
+    margin: 5%;
+    padding: 3%;
+    border: none;
+    border-radius: 5%;
+    box-shadow: #1b1b1d 4px 4px 2px;
+    background-color: #1b1b1d;
+    color: #faebd7;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 500;
+}
+.botao1:hover{
+    font-size: 100%;
+    
+}
+.botao2{
+    margin: 5%;
+    padding: 3%;
+    border: none;
+    border-radius: 5%;
+    box-shadow: #1b1b1d 4px 4px 2px;
+    background-color: #1b1b1d;
+    color: #faebd7;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 500;
+}
+.botao2:hover{
+    font-size: 100%;
+   
+}
+footer{ 
+    text-align: center;
+    font-size: 70%;
+    color: #faebd7;
+    background-color: #1b1b1d;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;;
+    }
