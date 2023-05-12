@@ -85,10 +85,9 @@ ul{
     text-transform: uppercase;
     font-size: 90%;
     font-weight: 500;
-    transition: .5s;
 }
 .botao1:hover{
-   font-size: 100%;
+    font-size: 100%;
     
 }
 .botao2{
@@ -104,10 +103,9 @@ ul{
     text-transform: uppercase;
     font-size: 90%;
     font-weight: 500;
-    transition: .5s;
 }
 .botao2:hover{
-  font-size: 100%;
+    font-size: 100%;
    
 }
 footer{ 
