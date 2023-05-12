@@ -88,7 +88,7 @@ ul{
     transition: .5s;
 }
 .botao1:hover{
-    scale: 1.3;
+   font-size: 100%;
     
 }
 .botao2{
@@ -107,7 +107,7 @@ ul{
     transition: .5s;
 }
 .botao2:hover{
-    scale: 1.3;
+  font-size: 100%;
    
 }
 footer{ 
